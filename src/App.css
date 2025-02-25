@@ -54,3 +54,10 @@ ul li {
   margin: 5px;
   border-radius: 5px;
 }
+
+.images {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: 2px solid white;
+}
