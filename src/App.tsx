@@ -35,9 +35,9 @@ function App() {
       </section>
 
       <h3>📬 Contact Me</h3>
-      <p>Email: parimalaravali2016@gmail.com</p>
-      <p>GitHub: <a href="https://github.com/your-github" target="_blank">Your GitHub</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/parimala-ravali-mukkavilli/" target="_blank">Your LinkedIn</a></p>
+      <p><a href="mailTo:ravalimukkavilli@gmail.com">ravalimukkavilli@gmail.com</a></p>
+      <p><a href="https://github.com/ravali0423" target="_blank">My GitHub</a></p>
+      <p><a href="https://www.linkedin.com/in/parimala-ravali-mukkavilli/" target="_blank">My LinkedIn</a></p>
     </div>
   );
 }
