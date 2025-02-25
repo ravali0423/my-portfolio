@@ -14,7 +14,7 @@ function App() {
         <li className="skill">MongoDB</li>
       </ul>
 
-      <h3> My Education</h3>
+      <h3>📌 My Education</h3>
       <ul>
         <li className="education">React.js</li>
         <li className="education">TypeScript</li>
