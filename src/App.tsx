@@ -1,24 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center", padding: "50px" }}>
+      <h1>Hi, I'm Parimala Ravali Mukkavilli 👋</h1>
+      <h2>Front-End Developer | React & TypeScript Enthusiast</h2>
+      <p>Welcome to my portfolio! I'm passionate about building beautiful, functional web applications.</p>
+
+      <h3>📌 My Skills</h3>
+      <ul>
+        <li className="skill">React.js</li>
+        <li className="skill">TypeScript</li>
+        <li className="skill">HTML, CSS, JavaScript</li>
+        <li className="skill">MongoDB</li>
+      </ul>
+
+      <h3>📌 My Education</h3>
+      <ul>
+        <li className="education">React.js</li>
+        <li className="education">TypeScript</li>
+        <li className="education">HTML, CSS, JavaScript</li>
+        <li className="education">MongoDB</li>
+      </ul>
+      <section style={{
+        background: "#f8f9fa",
+        padding: "20px",
+        borderRadius: "10px",
+        margin: "20px auto",
+        width: "80%",
+        textAlign: "center",
+        boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)"
+      }}>
+        <h3>🚀 My Projects</h3>
+        <p>Coming soon...</p>
+      </section>
+
+      <h3>📬 Contact Me</h3>
+      <p>Email: parimalaravali2016@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/your-github" target="_blank">Your GitHub</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/parimala-ravali-mukkavilli/" target="_blank">Your LinkedIn</a></p>
     </div>
   );
 }
