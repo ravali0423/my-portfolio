@@ -1,6 +1,8 @@
 import Header from "./Header";
 import "./App.css";
 import novelBits from "./assets/novelbits.png";
+import profile from "./assets/profile.jpeg";
+
 
 function App() {
   return (
@@ -21,10 +23,12 @@ function App() {
         </div>
         <h3>📌 My Skills</h3>
         <ul>
-          <li className="skill">React.js</li>
-          <li className="skill">TypeScript</li>
-          <li className="skill">HTML, CSS, JavaScript</li>
-          <li className="skill">MongoDB</li>
+          <li className="skill">🌐 React.js</li>
+          <li className="skill">⚡ TypeScript & JavaScript</li>
+          <li className="skill">📊 OpenAI API, Google Places API</li>
+          <li className="skill">🤖 AI-driven habit analysis</li>
+          <li className="skill">📝 Product Management & Agile</li>
+          <li className="skill">🎯 Python for AI & Automation</li>
         </ul>
 
         <h3>📌 My Education</h3>
@@ -54,7 +58,7 @@ function App() {
             </div>
 
             <div className="project">
-              <img src="/tripper.jpg" alt="Tripper AI Project" />
+              <img src={profile} alt="Tripper AI Project" className="images" />
               <h4>Tripper – AI-Powered Travel Planning Assistant</h4>
               <p>Designed an AI travel assistant using OpenAI GPT, Google Places API, and Open Weather API.</p>
               <a href="https://github.com/your-github/tripper" target="_blank">GitHub Repo</a>
